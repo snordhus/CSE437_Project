@@ -12,4 +12,3 @@ Idea:
 	○ Calls API
 		§ Gives lowest price among ~30 platforms
 	Daily game (worldle-like function)
-..
