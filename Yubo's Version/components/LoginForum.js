@@ -34,7 +34,10 @@ function LoginForum(){
       <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button" action='/'>
         Sign In
       </button>
-      <a className="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800" href="#">
+      <a className="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800" href="/register">
+        Need an Account?
+      </a>
+      <a className="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800" href="/forgot-password">
         Forgot Password?
       </a>
     </div>
@@ -47,7 +50,6 @@ function LoginForum(){
   </div>
 </div>
     )
-
 }
 
 export default LoginForum
