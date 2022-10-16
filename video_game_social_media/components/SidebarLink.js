@@ -11,7 +11,17 @@ function SidebarLink({Icon, text, active}) {
           <a >User</a>
     </Link>
   </div>
-    )} else {
+    )} 
+    else if (text == 'Marketplace') {
+      return(
+      <div className={`text-black flex items-center justify-center xl:justify-start text-xl space-x-3 hoverAnimation ${active && "font-bold"}`}>
+      <Icon className="h-7"/>
+      <Link href="/marketplace" className="hidden xl:inline">
+            <a >Marketplace</a>
+      </Link>
+    </div>
+      )} 
+      else {
   return (
     <div className={`text-black flex items-center justify-center xl:justify-start text-xl space-x-3 hoverAnimation ${active && "font-bold"}`}>
       <Icon className="h-7"/>

@@ -18,7 +18,7 @@ function Sidebar() {
         <div className="space-y-2.5 mt-4 mb-2.5 xl:ml-24">
           <SidebarLink text="Home" Icon={HomeIcon} active/>
           <SidebarLink text="Game Forums" Icon={ChatBubbleBottomCenterIcon}/>
-          <SidebarLink text="Game Marketplace" Icon={BuildingStorefrontIcon}/>
+          <SidebarLink text="Marketplace" Icon={BuildingStorefrontIcon}/>
           <SidebarLink text="Daily Game" Icon={PuzzlePieceIcon}/>
           <SidebarLink text="User" Icon={UserCircleIcon}/>
         </div>
