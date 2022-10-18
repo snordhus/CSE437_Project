@@ -19,7 +19,7 @@ function MarketplaceForum(){
 
 
   <div class="pl-96">
-    <header class=" bg-black sticky top-0 w-full px-5 py-2 flex justify-between items-center">
+    <header class=" bg-black sticky top-0 w-full px-5 py-2 flex justify-between items-center text-white">
       <div class="px-2">
         Marketplace
       </div>
